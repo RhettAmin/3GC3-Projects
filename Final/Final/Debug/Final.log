@@ -1,0 +1,58 @@
+﻿Build started 12/20/2013 1:22:12 AM.
+     1>Project "C:\Users\Rhett\Documents\Visual Studio 2010\Projects\Final\Final\Final.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Final.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Stage.cpp
+         Stage.cpp
+     1>c:\users\rhett\documents\visual studio 2010\projects\final\final\stage.cpp(43): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\rhett\documents\visual studio 2010\projects\final\final\stage.cpp(44): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\rhett\documents\visual studio 2010\projects\final\final\stage.cpp(74): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\rhett\documents\visual studio 2010\projects\final\final\stage.cpp(77): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\rhett\documents\visual studio 2010\projects\final\final\stage.cpp(88): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\rhett\documents\visual studio 2010\projects\final\final\stage.cpp(91): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\rhett\documents\visual studio 2010\projects\final\final\stage.cpp(92): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\rhett\documents\visual studio 2010\projects\final\final\stage.cpp(99): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\rhett\documents\visual studio 2010\projects\final\final\stage.cpp(108): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\rhett\documents\visual studio 2010\projects\final\final\stage.cpp(113): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\rhett\documents\visual studio 2010\projects\final\final\stage.cpp(114): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>c:\users\rhett\documents\visual studio 2010\projects\final\final\stage.cpp(115): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>c:\users\rhett\documents\visual studio 2010\projects\final\final\stage.cpp(116): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>c:\users\rhett\documents\visual studio 2010\projects\final\final\stage.cpp(191): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\rhett\documents\visual studio 2010\projects\final\final\stage.cpp(191): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\rhett\documents\visual studio 2010\projects\final\final\stage.cpp(191): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\rhett\documents\visual studio 2010\projects\final\final\stage.cpp(193): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\rhett\documents\visual studio 2010\projects\final\final\stage.cpp(193): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\rhett\documents\visual studio 2010\projects\final\final\stage.cpp(193): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\rhett\documents\visual studio 2010\projects\final\final\stage.cpp(207): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\rhett\documents\visual studio 2010\projects\final\final\stage.cpp(207): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\rhett\documents\visual studio 2010\projects\final\final\stage.cpp(207): warning C4305: 'initializing' : truncation from 'double' to 'float'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Rhett\Documents\Visual Studio 2010\Projects\Final\Debug\Final.exe" /NOLOGO opengl32.lib freeglut.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Final.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Rhett\Documents\Visual Studio 2010\Projects\Final\Debug\Final.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Rhett\Documents\Visual Studio 2010\Projects\Final\Debug\Final.lib" /MACHINE:X86 Debug\Animation.obj
+         Debug\Box.obj
+         Debug\Fighter.obj
+         Debug\GameState.obj
+         Debug\HealthBar.obj
+         Debug\Main.obj
+         Debug\MathLib3D.obj
+         Debug\Platform.obj
+         Debug\Stage.obj
+         LINK : C:\Users\Rhett\Documents\Visual Studio 2010\Projects\Final\Debug\Final.exe not found or not built by the last incremental link; performing full link
+         Final.vcxproj -> C:\Users\Rhett\Documents\Visual Studio 2010\Projects\Final\Debug\Final.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Rhett\Documents\Visual Studio 2010\Projects\Final\Debug\Final.exe;#1" /manifest Debug\Final.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\Final.unsuccessfulbuild".
+         Touching "Debug\Final.lastbuildstate".
+     1>Done Building Project "C:\Users\Rhett\Documents\Visual Studio 2010\Projects\Final\Final\Final.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.42
