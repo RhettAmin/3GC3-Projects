@@ -127,7 +127,6 @@ struct Particle {
 		glRotatef(rotAngleY * ang, 0, 1, 0);
 		glRotatef(rotAngleZ * ang, 0, 0, 1);
 		
-
 		//draws an outline for a cell shading effect
 		if (isCartoony) {
 			glLineWidth(3);
